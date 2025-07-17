@@ -23,7 +23,7 @@ export default function HeroSection() {
           </div>
 
           {/* Main Heading - Simplified on mobile */}
-          <h1 className="text-3xl md:text-5xl lg:text-6xl font-black leading-tight mb-4 md:mb-6 drop-shadow-lg mt-4 md:mt-0">
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-black leading-tight mb-4 md:mb-6 drop-shadow-lg mt-4 md:mt-0">
             <span className="block md:inline">UNLEASH YOUR </span>
             <span className="text-primary-green drop-shadow-green-glow">POTENTIAL</span>
             <br className="hidden md:block" />
