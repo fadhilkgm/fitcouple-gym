@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: 'Inter', sans-serif;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-btn-gradient text-black px-8 py-4 border-none rounded-lg font-semibold text-base cursor-pointer transition-all duration-300 uppercase tracking-wider hover:-translate-y-0.5 hover:shadow-btn-hover;
+  }
+
+  .btn-secondary {
+    @apply bg-transparent text-primary-green px-8 py-4 border-2 border-primary-green rounded-lg font-semibold text-base cursor-pointer transition-all duration-300 uppercase tracking-wider hover:bg-primary-green hover:text-black hover:-translate-y-0.5;
+  }
+}
